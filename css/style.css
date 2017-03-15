@@ -72,11 +72,9 @@
 /* HEADER */
  header {
    color:#333333;
-
    background: url("../images/herobackground.jpg") top center no-repeat;
    background-size:cover;
    padding: 10px;
-
  }
 
    background-image:url(DayBook/images/herobackground.jpg);
@@ -270,7 +268,6 @@ header .hero {
    font-style:italic;
  }
 
- /* TESTIMONIALS */
 
 /* TESTIMONIALS */
  .testimonials {
@@ -279,7 +276,7 @@ header .hero {
  }
 
  .testimonials h2 {
-   color:#3498DB;
+   color:#228bb8;
  }
  .testimonials ul li {
    list-style-type: none;
@@ -322,4 +319,66 @@ header .hero {
    text-align: left;
    font-size:13px;
    margin-top: 30px;
+ }
+
+/*Entice */
+.Entice h2 {
+   font-size:28px;
+   color:#228bb8;
+}
+.container {
+   text-align: center;
+   padding-top: 0px;
+   padding-bottom: 50px;
+}
+
+ /* FOOTER */
+ footer {
+   background-color: #7BC4D4;
+   color: #FFFFFF;
+   height: 100px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: #228BB8;
+ }
+
+ footer .logo{
+	padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+ @media (min-width: 992px){
+   footer{
+     background-color: #7BC4D4;
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+
+   footer .right-footer-block {
+     background-color: #228bb8;
+   }
+
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
  }
