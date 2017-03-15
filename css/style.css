@@ -72,18 +72,18 @@
 /* HEADER */
  header {
    color:#333333;
-<<<<<<< HEAD
+
    background: url("../images/herobackground.jpg") top center no-repeat;
    background-size:cover;
    padding: 10px;
 
  }
-=======
+
    background-image:url(DayBook/images/herobackground.jpg);
    background-repeat:no-repeat;
    background-size: 100%;
    padding: 10px; }
->>>>>>> 028c60a845f2cbe6e79a00739af1d0147c8a0f60
+
  header nav {
    padding:1em 0;
  }
