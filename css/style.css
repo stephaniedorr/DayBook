@@ -133,17 +133,26 @@ header .hero {
  }
 
  @media (min-width: 768px) {
-   .hero {
+   .container {
      width: 750px;
    }
  }
  @media (min-width: 992px) {
-   .hero {
-     width: 970px;
+   .container {
+     width: 970px;¸
    }
-}
-@media (min-width: 1200px) {
-   .hero {
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
      width: 1170px;
    }
  }
@@ -357,12 +366,13 @@ header .hero {
  }
  footer .right-footer-block {
    background-color: #228BB8;
+   
  }
 
  footer .logo{
 	padding: 2.35em 0;
    margin: 0 auto;
-   display: block;
+
  }
  @media (min-width: 992px){
    footer{
@@ -376,9 +386,11 @@ header .hero {
 
    footer .right-footer-block {
      background-color: #228bb8;
+     
    }
 
    footer .logo{
      padding: 2em 0 2em 1.5em;
+     
    }
  }
