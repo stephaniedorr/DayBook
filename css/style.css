@@ -433,12 +433,17 @@ header .hero {
    text-decoration: none;
  }
  footer .right-footer-block {
+<<<<<<< HEAD
    background-color: transparent;
+=======
+   background-color: #228BB8;
+   
+>>>>>>> a60e0f5755fa30eac08f49c67aa808cbff571e08
  }
  footer .logo{
    padding: 2.35em 0;
    margin: 0 auto;
-   display: block;
+
  }
 
  @media (min-width: 992px){
@@ -452,9 +457,15 @@ header .hero {
      text-align: left;
    }
    footer .right-footer-block {
+<<<<<<< HEAD
      background-color: #7bc4d4;
+=======
+     background-color: #228bb8;
+     
+>>>>>>> a60e0f5755fa30eac08f49c67aa808cbff571e08
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
+     
    }
  }
