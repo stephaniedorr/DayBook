@@ -53,6 +53,7 @@
    .container {
      width: 970px;
    }
+
    .one-half {
      width:46%;
    }
@@ -68,6 +69,13 @@
      width: 1170px;
    }
  }
+
+.topleft {
+   float: left;
+}
+.topright {
+   float: right;
+}
 
 /* HEADER */
  header {
@@ -129,21 +137,30 @@ header .hero {
  }
  header .hero img {
    display: block;
-   margin:3em auto 0;
+   margin:3em auto 50px;
  }
 
  @media (min-width: 768px) {
-   .hero {
+   .container {
      width: 750px;
    }
  }
  @media (min-width: 992px) {
-   .hero {
-     width: 970px;
+   .container {
+     width: 970px;¸
    }
-}
-@media (min-width: 1200px) {
-   .hero {
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
      width: 1170px;
    }
  }
@@ -177,13 +194,81 @@ header .hero {
  }
  .benefits i {
    color:#333333;
-   font-size:60px;
+   font-size:50px;
    margin:0;
    vertical-align: middle;
  }
  .benefits h2 {
    color:#228bb8;
  }
+
+/* Gray Rows */
+ .benefitgray {
+   text-align: center;
+   height: 560;
+   background-color: #E3E5E5;
+   display:block;
+   position:relative;
+ }
+ .benefitgray ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefitgray ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefitgray i {
+   color:#333333;
+   font-size:60px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefitgray h2 {
+   color:#228bb8;
+ }
+
+
+ /* White Rows */
+.benefitwhite {
+   text-align: center;
+   height: 560;
+   background-color: white;
+   display:block;
+   position:relative;
+ }
+ .benefitwhite ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefitwhite ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefitwhite i {
+   color:#333333;
+   font-size:60px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefitwhite h2 {
+   color:#228bb8;
+ }
+.manwcomputer {
+   width: 350px;
+   height: 250px;
+   
+}
+.girlwcomputer {
+   width: 350px;
+   height: 250px
+   
+}
+.freedom {
+   width: 350px;
+   height: 250px;
+ 
+}
 
  /* PRICING */
  .pricing {
@@ -209,7 +294,7 @@ header .hero {
 
  .box {
    padding:0 15px 15px;
-   background: #cfcdcd;
+   background: #7BC4D4;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
    min-height: 439px;
    position: relative;
@@ -222,9 +307,9 @@ header .hero {
  .box h3 {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    font-weight: 600;
-   color: #228bb8;
+   color: black;
    text-transform: uppercase;
-   background: #cfcdcd;
+   background: #c228bb8;
    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
    left:0;
    right:0;
@@ -237,7 +322,7 @@ header .hero {
    font-size:50px;
    font-weight: normal;
    margin:40px 0 10px;
-   color:#228bb8;
+   color: black;
  }
  .box h4 span {
    font-size:32px;
@@ -246,7 +331,7 @@ header .hero {
  .box h4 span.month {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    font-weight: 100;
-   color:#888888;
+   color: black;
    font-size:20px;
    vertical-align: middle;
  }
@@ -271,6 +356,7 @@ header .hero {
 
 /* TESTIMONIALS */
  .testimonials {
+   background-color: #E3E5E5;
    padding:4em 0;
    text-align: center;
  }
@@ -321,22 +407,13 @@ header .hero {
    margin-top: 30px;
  }
 
-/*Entice */
-.Entice h2 {
-   font-size:28px;
-   color:#228bb8;
-}
-.container {
-   text-align: center;
-   padding-top: 0px;
-   padding-bottom: 50px;
-}
 
- /* FOOTER */
+  /* FOOTER */
  footer {
    background-color: #7BC4D4;
+
    color: #FFFFFF;
-   height: 100px;
+   height: 150px;
    position: relative;
    overflow: hidden;
    z-index: 0;
@@ -356,28 +433,27 @@ header .hero {
    text-decoration: none;
  }
  footer .right-footer-block {
-   background-color: #228BB8;
+   background-color: transparent;
  }
-
  footer .logo{
-	padding: 2.35em 0;
+   padding: 2.35em 0;
    margin: 0 auto;
    display: block;
  }
+
  @media (min-width: 992px){
    footer{
-     background-color: #7BC4D4;
+     background-color: #7bc4d4;
+
      height: 100px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
      text-align: left;
    }
-
    footer .right-footer-block {
-     background-color: #228bb8;
+     background-color: #7bc4d4;
    }
-
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
