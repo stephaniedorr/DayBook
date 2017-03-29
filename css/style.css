@@ -141,7 +141,6 @@ header .hero {
    margin:3em auto 50px;
  }
 
-
 /* BUTTONS */
  .btn {
    border-radius: 4px;
@@ -278,10 +277,8 @@ header .hero {
   }
   .girlwcomputer {
     display: none;
-  }
-  
+  } 
 }
-
 
  /* PRICING */
  .pricing {
@@ -460,6 +457,9 @@ header .hero {
  @media (min-width: 992px){
    footer{
      background-color: #7bc4d4;
+
+     background: #7bc4d4;
+     background-image: linear-gradient(-180deg, #7bc4d4 0%, rgba(0,0,0,0.20) 100%);
      background: #7bc4d4;
      background-image: linear-gradient(-180deg, #7bc4d4 0%, rgba(0,0,0,0.20) 100%);
      height: 100px;
@@ -629,7 +629,7 @@ header .hero {
    margin-top:8px;
  }
  .left-nav .items ul .active li a {
-   color:#000000;
+   color:#FFFFFF;
    font-size: 18px;
    text-decoration: none;
    font-weight: 100;
@@ -757,3 +757,5 @@ header .hero {
  .imagepage {
    background-color: #E3E5E5;
  }
+
+
