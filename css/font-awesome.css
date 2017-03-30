@@ -20,6 +20,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.fa.fa-cog {
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.fa.fa-sign-out {
+  margin-right: 35px;
+}
+.fa.fa-group {
+  margin-bottom: 10px;
+}
+
+
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333333em;
